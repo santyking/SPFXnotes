@@ -13,3 +13,5 @@ we need to enable app catalogue wrt SharePoint site collection. for this,
 install SharePoint online management shell if not installed.
 Connect-SPOService
 Add-SPOSiteCollectionAppCatalog -Site "enter site url"
+
+to add multiple webparts under single solution, run yo @microsoft/sharepoint on the same folder once again. yoman automatically identifies that this is something additional on the existing solution and adds it.
